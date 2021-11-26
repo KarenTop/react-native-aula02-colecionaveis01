@@ -21,3 +21,4 @@ function Inicial(){
         </View>
     )
 }
+export default Inicial;
