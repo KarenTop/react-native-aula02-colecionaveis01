@@ -2,7 +2,15 @@ import React from 'react';
 import {Text, View, TouchableOpacity} from 'react-native';
 import estiloinicial from './estiloinicial';
 
-function Inicial(){
+function Inicial({navigation}){
+
+    const abrirColecao = ()=> {
+        navigation.navigate('Colecao')
+    }
+
+    const abrirItem = ()=> {
+        navigation.navigate('Item')
+    }
      
     return (
         <View style={estiloinicial.container}>

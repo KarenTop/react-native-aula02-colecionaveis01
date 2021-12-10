@@ -1,6 +1,6 @@
 import {StyleSheet} from 'react-native';
 
-const estiloinicial = StyleSheet.create({
+const estiloColecao = StyleSheet.create({
     container:{
         flex:1,
         justifyContent: "center",
@@ -38,4 +38,4 @@ const estiloinicial = StyleSheet.create({
         fontWeight: 'bold',
     },
 });
-export default estiloinicial;
+export default estiloColecao;
