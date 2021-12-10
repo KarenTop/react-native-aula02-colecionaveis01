@@ -18,11 +18,11 @@ function Inicial({navigation}){
 
                 <Text style={estiloinicial.texto}>Inicial</Text>
 
-                <TouchableOpacity style={estiloinicial.botaoContainer}>
+                <TouchableOpacity style={estiloinicial.botaoContainer} onePress={abrirColecao}>
                 <Text style={estiloinicial.botaoContainer}>Coleção</Text>
                 </TouchableOpacity>
 
-                <TouchableOpacity style ={estiloinicial.botaoContainer}>
+                <TouchableOpacity style ={estiloinicial.botaoContainer} onePress={abrirItem}>
                     <Text style={estiloinicial.botaoTexto}>Item</Text>
                 </TouchableOpacity>
             </View>
