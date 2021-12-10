@@ -1,4 +1,4 @@
-import react from 'react';
+import React from 'react';
 import {Text, View, TouchableOpacity} from 'react-native';
 import estiloColecao from './estiloColecao';
 
@@ -9,7 +9,7 @@ function Colecao(){
 
                 <Text style={estiloColecao.texto}>Coleção</Text>
 
-                <TouchableOpacity> style={estiloColecao.botaoContainer}>
+                <TouchableOpacity> style={estiloColecao.botaoContainer} 
                     <Text style={estiloColecao.botaotexto}>Voltar</Text>
                 </TouchableOpacity>
 

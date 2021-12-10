@@ -1,13 +1,13 @@
 import {StyleSheet} from 'react-native';
 
-const estiloinicial = StyleSheet.create({
+const estiloItem = StyleSheet.create({
     container:{
         flex:1,
         justifyContent: "center",
         alingnItems: 'center',
     },
     borda:{
-        backgroudColor:'#',
+        backgroudColor:'#081a31',
         width:'80%',
         height:'40%',
         borderRadius: 10,
@@ -38,4 +38,5 @@ const estiloinicial = StyleSheet.create({
         fontWeight: 'bold',
     },
 });
-export default estiloinicial;
+export default estiloItem;
+ 
